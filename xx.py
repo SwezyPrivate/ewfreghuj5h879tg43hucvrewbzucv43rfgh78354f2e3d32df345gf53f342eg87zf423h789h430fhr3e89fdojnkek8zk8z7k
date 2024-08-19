@@ -6,7 +6,6 @@ from email.mime.text import MIMEText as er34x
 import requests as wef4323
 import json as rdefg45t54
 from telegram import Bot as ef9igj48
-import pygetwindow as yxvcre
 import os as ewsjinf783
 import platform as btrrf98
 import shutil as euifew
