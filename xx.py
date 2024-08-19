@@ -1,6 +1,4 @@
-import pyperclip as awd42321dsa
 import time as greduhio
-import re as hbgidr
 import subprocess as xvcj5tr
 import smtplib as ewfg45z54
 from email.mime.multipart import MIMEMultipart as f4r354
